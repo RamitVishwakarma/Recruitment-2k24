@@ -1,0 +1,1 @@
+# Recruitment Platform for GDSC 2024
