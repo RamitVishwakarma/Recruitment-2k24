@@ -5,11 +5,28 @@
 @layer base {
   @font-face {
     font-family: "Zodiac";
-    src: local("Zodiac"), url(./assets\Zodiak-Variable.woff) format("woff");
+    font-weight: 300;
+    src: local("Zodiac"), url(./assets/fonts/Zodiak-Regular.woff2) format("woff");
+  }
+  @font-face {
+    font-family: "Zodiac";
+    font-weight: 700;
+    src: local("Zodiac"), url(./assets/fonts/Zodiak-Bold.woff2) format("woff");
+  }
+  @font-face {
+    font-family: "Zodiac";
+    font-weight: 800;
+    src: local("Zodiac"), url(./assets/fonts/Zodiak-Extrabold.woff2) format("woff");
   }
   @font-face {
     font-family: "Satoshi";
-    src: local("Satoshi"), url(./assets\Satoshi-Variable.woff) format("woff");
+    font-weight: 400;
+    src: local("Satoshi"), url(./assets/fonts/Satoshi-Regular.woff2) format("woff");
+  }
+  @font-face {
+    font-family: "Satoshi";
+    font-weight: 400;
+    src: local("Satoshi"), url(./assets/fonts/Satoshi-Bold.woff2) format("woff");
   }
 }
 
