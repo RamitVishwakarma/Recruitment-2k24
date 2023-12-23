@@ -1,14 +1,17 @@
 import './App.css'
-import Navbar from './components/navbar'
-import Home from './components/home'
+import DomainSelction from './components/Pages/DomainSelection';
+import Home from './components/Pages/Home'
+import Login from './components/Pages/Login';
+import Register from './components/Pages/Register';
 
-function App() {
+
+export default function App() {
   return (
     <>
-      <Navbar/>  
       <Home/>
+      <Login/>
+      <Register/>
+      <DomainSelction/>
     </>
-  )
+  );
 }
-
-export default App

@@ -2,21 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    @font-face {
-        font-family: 'Zodiac';
-        src: local('Zodiac'), url(./assets\Zodiak-Variable.woff) format('woff');
-    }
-    @font-face {
-        font-family: 'Satoshi';
-        src: local('Satoshi'), url(./assets\Satoshi-Variable.woff) format('woff');
-    }
+@layer base {
+  @font-face {
+    font-family: "Zodiac";
+    src: local("Zodiac"), url(./assets\Zodiak-Variable.woff) format("woff");
+  }
+  @font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi"), url(./assets\Satoshi-Variable.woff) format("woff");
+  }
 }
 
-#get_started_button img{
-    transition: all 0.2s ease-in-out;
+#get_started_button img {
+  transition: all 0.2s ease-in-out;
 }
 
 #get_started_button:hover img {
-    transform: translateX(10px);
+  transform: translateX(10px);
 }
