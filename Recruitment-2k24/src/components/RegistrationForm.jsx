@@ -1,10 +1,10 @@
-import Input from "./input";
+import Input from "./Input";
 export default function RegistrationForm(){
     return(
     <>
     <div className="flex justify-center">
     <form action="/" className="bg-form flex flex-col items-center justify-evenly w-[62.56rem] h-[35.0625rem] rounded-[1.25rem]">
-        <div><h2 className="text-4xl text-center text-form-head leading-normal">Fill out your details</h2></div>
+        <div><h2 className="text-4xl text-center text-form-head leading-normal font-bold">Fill out your details</h2></div>
         <div className="flex flex-wrap justify-evenly">
         <Input label={"Name"} type={"text"}/>
         <Input label={"Email"} type={"email"}/>

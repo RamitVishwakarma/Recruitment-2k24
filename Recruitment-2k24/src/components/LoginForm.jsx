@@ -1,10 +1,10 @@
-import Input from "./input";
+import Input from "./Input";
 export default function LoginForm(){
     return (    
     <>
     <div className="flex justify-center">
     <form action="/" className="bg-form flex flex-col items-center justify-evenly w-[41.375rem] h-[35.0625rem] rounded-[1.25rem]">
-        <div><h2 className="text-4xl text-center text-form-head leading-normal">Enter your login details</h2></div>
+        <div><h2 className="text-4xl text-center font-bold text-form-head leading-normal">Enter your login details</h2></div>
         <div className="flex  flex-col justify-evenly">
         <Input label={"Email"} type={"email"}/>
         <Input label={"Password"} type={"password"}/>
