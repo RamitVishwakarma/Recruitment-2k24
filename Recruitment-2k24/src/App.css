@@ -6,7 +6,8 @@
   @font-face {
     font-family: "Zodiac";
     font-weight: 300;
-    src: local("Zodiac"), url(./assets/fonts/Zodiak-Regular.woff2) format("woff");
+    src: local("Zodiac"),
+      url(./assets/fonts/Zodiak-Regular.woff2) format("woff");
   }
   @font-face {
     font-family: "Zodiac";
@@ -16,12 +17,14 @@
   @font-face {
     font-family: "Zodiac";
     font-weight: 800;
-    src: local("Zodiac"), url(./assets/fonts/Zodiak-Extrabold.woff2) format("woff");
+    src: local("Zodiac"),
+      url(./assets/fonts/Zodiak-Extrabold.woff2) format("woff");
   }
   @font-face {
     font-family: "Satoshi";
     font-weight: 400;
-    src: local("Satoshi"), url(./assets/fonts/Satoshi-Regular.woff2) format("woff");
+    src: local("Satoshi"),
+      url(./assets/fonts/Satoshi-Regular.woff2) format("woff");
   }
   @font-face {
     font-family: "Satoshi";

@@ -1,6 +1,6 @@
 export default function SelectorButton() {
 return (
-    <div className="flex justify-center">
+    <div className="flex justify-center m-6">
         <div className="static">
         <button className="w-[13.125rem] h-[3.93rem] rounded-[3.125rem] border-2 border-solid border-selector bg-selector-bg text-selector-txt text-[1.75rem] font-Satoshi font-bold absolute">
             Register

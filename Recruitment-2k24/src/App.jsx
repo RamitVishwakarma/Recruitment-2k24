@@ -9,8 +9,8 @@ export default function App() {
   return (
     <>
       <Home/>
-      <Login/>
       <Register/>
+      <Login/>
       <DomainSelction/>
     </>
   );
